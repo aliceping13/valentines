@@ -10,7 +10,7 @@ body {
   font-family: 'DM Sans', sans-serif;
 
   /* Background image */
-  background-image: url("./background.jpg"); /* rename file to avoid spaces */
+  background-image: url("./background.jpg"); /* don't forget to add your background file to the same folder as style.css */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
