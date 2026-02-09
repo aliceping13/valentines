@@ -3,16 +3,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(#ff9a9e, #fad0c4);
   font-family: "Comic Sans MS", cursive;
+  background-image: url("Desktop - 1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .card {
-  background: white;
-  padding: 40px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
   border-radius: 20px;
+  padding: 40px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .buttons {
@@ -26,6 +31,10 @@ button {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
 }
 
 #yesBtn {
