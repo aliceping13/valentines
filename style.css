@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  font-family: "Comic Sans MS", cursive;
+  font-family: 'DM Sans', sans-serif;
 
   /* Background image */
   background-image: url("./Desktop-1.jpg"); /* rename file to avoid spaces */
